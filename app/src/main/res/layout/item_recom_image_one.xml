@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:padding="@dimen/dp_10">
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="@dimen/dp_44"
+        android:layout_height="@dimen/dp_44"
+        android:background="@color/color_F2F2F2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/img_avatar"
+        app:layout_constraintTop_toTopOf="@id/img_avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_view_content_state"
+            android:clickable="true"
+            android:textColor="#697A9F"
+            android:textSize="@dimen/sp_16" />
+
+        <include layout="@layout/include_item_recycler_content"/>
+        <com.dkcr.blibala.widget.friends_circle.NineGridView
+            android:id="@+id/nine_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_4"
+            android:layout_marginTop="@dimen/dp_8"/>
+        <include layout="@layout/include_item_recycler_location" />
+        <include layout="@layout/include_item_recycler_time"/>
+        <include layout="@layout/include_item_recycler_praise_and_comment"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

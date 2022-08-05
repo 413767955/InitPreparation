@@ -1,17 +1,19 @@
 plugins {
     id 'com.android.application'
 }
-
+apply plugin: "com.blankj.bus"
+bus {
+    busUtilsClass "com.blankj.utilcode.util.BusUtils"
+}
 android {
-    compileSdkVersion 30
-    buildToolsVersion '30.0.3'
+    compileSdk rootProject.ext.android.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.dkcr.initpreparation"
-        minSdkVersion 21
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        applicationId "com.dkcr.blibala"
+        minSdk rootProject.ext.android.minSdkVersion
+        targetSdk rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -26,14 +28,42 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    //启用DataBinding
+    dataBinding {
+        enabled true
+    }
 }
 
 dependencies {
-
+    implementation project(':library-base')
+    implementation project(':library-common')
     implementation 'androidx.appcompat:appcompat:1.3.0'
     implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation rootProject.ext.dependencies.utilcodex
+
+    //今日头条屏幕适配  https://github.com/JessYanCoding/AndroidAutoSize/blob/master/README-zh.md
+    implementation 'com.github.JessYanCoding:AndroidAutoSize:v1.2.1'
+
+    compile 'lin.jerrylin0322.reswipecard:reswipecard:1.0.1'
+
+    //lombok依赖
+    implementation rootProject.ext.dependencies.lombok
+    annotationProcessor rootProject.ext.dependencies.lombok_annotationProcessor
+    implementation rootProject.ext.dependencies.ShadowLayout
+    implementation rootProject.ext.dependencies.dialogx
+    implementation rootProject.ext.dependencies.agentweb
+    implementation rootProject.ext.dependencies.BaseRecyclerViewAdapterHelper
+
+    implementation 'io.github.lucksiege:pictureselector:v3.0.9'
+
+    //implementation 'com.github.iielse:ImageWatcher:2.1.2'
+    implementation 'ch.ielse:imagewatcher:1.0.3'
+    //https://github.com/getActivity/TitleBar
+    implementation 'com.github.getActivity:TitleBar:9.5'
+
 }

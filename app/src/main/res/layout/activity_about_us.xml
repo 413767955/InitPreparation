@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!--<variable
+            name="viewModel"
+            type="com.hello.superbox.ui.mine.aboutus.AboutUsViewModel" />-->
+        <variable
+            name="event"
+            type="com.dkcr.blibala.ui.setting.ac.AboutUsActivity.Event" />
+        <variable
+            name="version"
+            type="String" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".ui.mine.aboutus.AboutUsActivity">
+        <com.hjq.bar.TitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="关于我们"/>
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/title_bar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/dp_50"
+            android:src="@drawable/ic_launcher_background"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="v1.2.3"
+            android:text="@{version}"
+            app:layout_constraintTop_toBottomOf="@id/img_logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/dp_10"/>
+        <TextView
+            android:id="@+id/txt_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_50"
+            app:layout_constraintTop_toBottomOf="@id/img_logo"
+            android:text="@string/privacy_policy"
+            android:paddingVertical="@dimen/dp_14"
+            android:paddingStart="@dimen/dp_14"
+            android:textSize="@dimen/sp_16"
+            android:onClick="@{()->event.onPrivacy()}"/>
+        <View
+            android:id="@+id/privacy_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_F2F2F2"
+            android:layout_marginHorizontal="@dimen/dp_14"
+            app:layout_constraintTop_toBottomOf="@id/txt_privacy"/>
+        <TextView
+            android:id="@+id/txt_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/privacy_line"
+            android:text="@string/user_agreement"
+            android:paddingVertical="@dimen/dp_14"
+            android:paddingStart="@dimen/dp_14"
+            android:textSize="@dimen/sp_16"
+            android:onClick="@{()->event.onAgreement()}"/>
+        <View
+            android:id="@+id/service_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_F2F2F2"
+            android:layout_marginHorizontal="@dimen/dp_14"
+            app:layout_constraintTop_toBottomOf="@id/txt_service"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

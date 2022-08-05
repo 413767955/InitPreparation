@@ -1,0 +1,69 @@
+ext {
+
+    android = [
+            compileSdkVersion: 31,
+            minSdkVersion    : 21,
+            targetSdkVersion : 31,
+            versionCode      : 1,
+            versionName      : "1.0.0",
+    ]
+
+
+    libsVersion = [
+            butterknife_version = "10.0.0",
+            retrofit_version = "2.6.1",
+            lifecycle_version = "2.2.0",
+            work_runtime_version = "2.7.1",
+    ]
+    dependencies = [
+            appcompat             : "androidx.appcompat:appcompat:1.4.1",
+            arouterApi            : "com.alibaba:arouter-api:1.5.0",
+            arouterCompiler       : "com.alibaba:arouter-compiler:1.2.2",
+            /*rxJava + retrofit -----start*/
+            retrofitConvertGson   : "com.squareup.retrofit2:converter-gson:$rootProject.retrofit_version",
+            retrofitConvertScalars: "com.squareup.retrofit2:converter-scalars:$rootProject.retrofit_version",
+            retrofit              : "com.squareup.retrofit2:retrofit:$rootProject.retrofit_version",
+            retrofitAdapterRxJava2: "com.squareup.retrofit2:adapter-rxjava2:$rootProject.retrofit_version",
+            rxJava                : "io.reactivex.rxjava2:rxjava:2.2.11",
+            rxAndroid             : "io.reactivex.rxjava2:rxandroid:2.1.1",
+            okhttp                : "com.squareup.okhttp3:okhttp:4.8.1",
+            /*rxJava + retrofit -----end*/
+
+            fastJson              : "com.alibaba:fastjson:1.2.48",
+
+
+            viewModel             : "androidx.lifecycle:lifecycle-extensions:$rootProject.lifecycle_version",
+            /*room 数据库 ---start*/
+            room                  : "androidx.room:room-runtime:$rootProject.lifecycle_version",
+            roomCompiler          : "androidx.room:room-compiler:$rootProject.lifecycle_version",
+            /*room 数据库 ---end*/
+            /*navigation --start*/
+            navigation            : "androidx.navigation:navigation-fragment:$rootProject.lifecycle_version",
+            navigationUI          : "androidx.navigation:navigation-ui:$rootProject.lifecycle_version",
+            /*navigation --end*/
+            work                  : "androidx.work:work-runtime:$rootProject.work_runtime_version",
+
+            swipebacklayout       : "me.imid.swipebacklayout.lib:library:1.1.0",
+            rxpermissions         : "com.github.tbruyelle:rxpermissions:v0.12",
+            websocket             : "com.neovisionaries:nv-websocket-client:2.7",
+            slidingpanellayout    : "androidx.slidingpanelayout:slidingpanelayout:1.1.0",
+            mmkv                  : "com.tencent:mmkv-static:1.2.2",
+            glide                 : "com.github.bumptech.glide:glide:4.11.0",
+            glide_compiler        : "com.github.bumptech.glide:compiler:4.11.0",
+            //万能阴影布局https://github.com/lihangleo2/ShadowLayout
+            ShadowLayout          : "com.github.lihangleo2:ShadowLayout:3.2.4",
+            //dialog https://github.com/kongzue/DialogX
+            dialogx               :"com.github.kongzue.DialogX:DialogX:0.0.43.beta13",
+            //安卓工具类库https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
+            utilcodex             :"com.blankj:utilcodex:1.31.0",
+
+            //lombok依赖
+            lombok                :"org.projectlombok:lombok:1.18.6",
+            lombok_annotationProcessor : "org.projectlombok:lombok:1.18.6",
+            //webview   https://github.com/Justson/AgentWeb
+            "agentweb"            :"com.github.Justson.AgentWeb:agentweb-core:v4.1.9-androidx",
+
+            BaseRecyclerViewAdapterHelper : "com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4"
+    ]
+
+}

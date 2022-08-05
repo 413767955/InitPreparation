@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hjq.bar.TitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:rightTitle="@string/save"
+            app:title="@string/self_introduction" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_input"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_300"
+            android:layout_margin="@dimen/dp_16"
+            app:cardCornerRadius="@dimen/dp_3"
+            app:layout_constraintTop_toBottomOf="@id/title_bar"
+            app:strokeColor="@color/color_000000"
+            app:strokeWidth="@dimen/dp_1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dp_10"
+                android:background="@null"
+                android:gravity="top"
+                android:text="打法上帝就发方家安的缴费卡数据的法律上帝就发路附近ask两地分居拉萨"
+                android:lineSpacingExtra="@dimen/dp_5"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/100"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cv_input"
+            android:layout_marginEnd="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_10"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

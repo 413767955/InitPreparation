@@ -1,5 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable-xxhdpi/ps_image_placeholder.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/anim_mic.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/audio_animation_left_list.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/audio_animation_right_list.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/bg_bottom_btn_normal.xml" value="0.195" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/bg_bottom_btn_pressed.xml" value="0.195" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/bg_bottom_btn_selector.xml" value="0.195" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/comments_drawable_blue.xml" value="0.183" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/comments_drawable_white.xml" value="0.1805" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/heart_drawable_blue.xml" value="0.183" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/heart_drawable_white.xml" value="0.1805" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/main_tab_text_color.xml" value="0.182" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/message_shap_chat_bg.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/ps_image_placeholder.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/selector_ctype_file.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/selector_ctype_image.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/selector_ctype_location.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/selector_ctype_video.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/selector_praise_or_comment_left_bg.xml" value="0.1805" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/selector_praise_or_comment_right_bg.xml" value="0.1805" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/selector_view_content_state.xml" value="0.183" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/selector_view_name_state.xml" value="0.183" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/sex_countdown_selector.xml" value="0.183" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/shape_gray.xml" value="0.195" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/shape_praise_or_comment.xml" value="0.1805" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/shape_session_btn_voice.xml" value="0.1735" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/shape_three_sides.xml" value="0.183" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/tab_main_home.xml" value="0.182" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/tab_main_mine.xml" value="0.182" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/drawable/translating.xml" value="0.183" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_about_us.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_basic_info.xml" value="0.2778965369816161" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_chat.xml" value="0.264" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_edit_information.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_friend_details.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_life_record.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_perfect_info.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_post_life_record.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_self_introduct.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_setting.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/activity_web_view.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/dialog_record.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/fragment_information.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/fragment_make_friend.xml" value="0.27863247863247864" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/fragment_make_friend2.xml" value="0.27863247863247864" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/fragment_mine.xml" value="0.264" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/fragment_recommend.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/include_add_layout.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/include_emoji_layout.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/include_item_recycler_content.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/include_item_recycler_location.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/include_item_recycler_praise_and_comment.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/include_item_recycler_time.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_audio_receive.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_audio_send.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_emoji.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_emoji_vprecy.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_file_receive.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_file_send.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_image_receive.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_image_send.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_imagecard.xml" value="0.176" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_life_comment.xml" value="0.2" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_life_record_img.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_life_record_text.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_life_tyep_img.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_message_list.xml" value="0.2" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_mine_label.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_nearby_list.xml" value="0.2" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_recom_image_one.xml" value="0.176" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_recycler_firend_circle_word_and_images.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_recycler_firend_circle_word_and_url.xml" value="0.27575887131252674" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_text_receive.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_text_send.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_video_receive.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/item_video_send.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/layout_alpha_table.xml" value="0.27863247863247864" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/layout_buttom.xml" value="0.2901709401709402" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/layout_item_img_txt.xml" value="0.27863247863247864" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/main_tab_item_view.xml" value="0.33958333333333335" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/popup_window_praise_or_comment_view.xml" value="0.27575887131252674" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/view_comment_translation_layout.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/layout/view_translation_layout.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/app/src/main/res/menu/popup_menu_end.xml" value="0.2787516032492518" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/library-base/src/main/res/layout/base_layout_loading.xml" value="0.2902949978623343" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/library-base/src/main/res/layout/statusview.xml" value="0.3536458333333333" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/library-base/src/main/res/layout/top_bar.xml" value="0.33958333333333335" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/library-common/src/main/res/layout/rv_item_article_text.xml" value="0.33958333333333335" />
+        <entry key="..\:/AndroidWork/dkcr/blibala-android/library-common/src/main/res/layout/rv_item_article_text_pic.xml" value="0.33958333333333335" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
